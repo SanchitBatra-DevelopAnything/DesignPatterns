@@ -1,0 +1,5 @@
+Application is an abstraction over the factories
+
+An application should have a button and checkbox
+Now if we give Mac , Application should load all macComponents and create all components (button and checkbox for Mac)
+If Windows is passed , use all components from the windows.

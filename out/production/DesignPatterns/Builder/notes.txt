@@ -1,0 +1,26 @@
+Builder pattern avoids too many constructors
+say if we have a requirement where we have 100s of properties for a class
+one user comes , says i only want 2 properties , so either we should have a constructor allowing to create object for only these 2 properties (high maintenance)
+OR
+i should have one constructor , taking all 100 properties
+Here , we are forcing the user to enter 100 of properties! (not good experience + high maintenance on new properties add)
+
+Hence , 
+Builder comes in and tries to solve this.
+Rule : 
+Maine burger banaana hai , ab kisi ko mayonese chahiye onions ke sath , kisi ko mustardOil and sirf mayonese chahiye onions nahi
+Burger class banaao properties do , private constructor karo (cuz user will use builder , not burger directly)
+
+Iss constructor ko bas burgerBuilder dedo.
+and validate karlo jo karna hai , and builder ki properties se burger ki properties set karke , burger return kardo.
+
+
+Burger Builder ek static inner class hogi with same properties as burger (cuz uske constructor me humein isi ki madad se burger banaana hai)
+Concept:
+har ek setter , burgerBuilder hi return karega
+
+setOnions(true) => BurgerBuilder with onions set , passed for mayonese set => burgerBuilder with onions and mayonese set. Ese kaam karega
+
+
+ek method hoga build() , jo ki burger constructor call karke , ye wala burgerBuilder bhejdega aur ese hmaara burger ban jaayga.... ;)
+

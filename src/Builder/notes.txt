@@ -19,7 +19,7 @@ Burger Builder ek static inner class hogi with same properties as burger (cuz us
 Concept:
 har ek setter , burgerBuilder hi return karega
 
-setOnions(true) => BurgerBuilder with onions set , passed for mayonese set => burgerBuilder with onions and mayonese set. Ese kaam karega
+Onions(true) => BurgerBuilder with onions set , passed for mayonese set => burgerBuilder with onions and mayonese set. Ese kaam karega
 
 
 ek method hoga build() , jo ki burger constructor call karke , ye wala burgerBuilder bhejdega aur ese hmaara burger ban jaayga.... ;)

@@ -1,0 +1,16 @@
+Requirement : MealBuilder chahiye , veg wala veg meal banaade , non veg wala non veg banaade meal.
+
+meal me : biryani , roti , raitaa , beverage hai as properties.
+
+veg and non veg have diffrent values..
+
+**HENCE , YAHAN TAK YE SAMAJH AATA HAI , KI MEALBUILDER INTERFACE AND 2 CHILD CONCRETE (veg builder , non veg builder)**
+
+AB EK DIRECTOR CLASS HOGI , JO KI USER INPUT LEGI VEG YA NONVEG , AND POORA MEAL BANAAKE DEDEGI.
+
+
+Builders me meal object hoga , varna properties kiski set karoge?
+
+
+
+

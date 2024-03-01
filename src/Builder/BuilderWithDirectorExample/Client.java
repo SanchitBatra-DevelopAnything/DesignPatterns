@@ -9,14 +9,14 @@ public class Client {
         //VEG OR NONVEG
         Scanner scan = new Scanner(System.in);
         String input = scan.next();
-        MealBuilder mealBuilder;
+        MealBuilder mealBuilder = new NonVegMealBuilder();
 
         //ye repeatedly ho to factory b lagaa sakte ho.
         if(input.equals("VEG"))
         {
             mealBuilder = new VegMealBuilder();
         }
-        else
+        else if(input.equals("NON-VEG"))
         {
             mealBuilder = new NonVegMealBuilder();
         }

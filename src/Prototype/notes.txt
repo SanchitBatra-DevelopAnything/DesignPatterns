@@ -1,0 +1,13 @@
+Protoype design pattern is used when object creation is heavy and we need to create objects..
+What we do is we define base objects at start of application , and clone the already created objects (PROTOTYPES)
+
+After cloning , we modify the properties as and what we need.. to create our object..
+
+CLONABLE INTERFACE implement krna chahiye for its clone to be possible.
+
+Prototypes are stored in registry.
+
+Child classes like 2wheeler and 4 wheeler should also support the clone method.
+
+
+NOTE : Vehicle ne clonable implement karliya , therefore all child classes bhi clonable hogayin apne aap.

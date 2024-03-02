@@ -11,3 +11,8 @@ Child classes like 2wheeler and 4 wheeler should also support the clone method.
 
 
 NOTE : Vehicle ne clonable implement karliya , therefore all child classes bhi clonable hogayin apne aap.
+
+USE CASE :
+jab object creation expensive ho , jese network calls krke bnta ho , ya db operations krke banta ho..
+to protoype use krke ek sample object banaalo, clone krke , fir iski properties badalte raho.
+

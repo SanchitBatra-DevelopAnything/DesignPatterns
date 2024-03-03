@@ -1,0 +1,20 @@
+Structural Design Pattern-2
+Bridge design pattern is used when your classes are growing exponentially and all these classes have similar work to do.
+
+Like ,
+you have video abstract class
+and child classes as ,
+youtubeNormal , youtube4K , youtubeHD , youtubeHDR and so on..
+and now you add netflix
+
+so netflix ki bhi 10 classes banengi.. :/
+
+BRIDGE DESIGN PATTERN COMES INTO PICTURE :
+Deciding factor for new classes is videoProcessor
+
+therefore make videoProcessor as diffrent hierarchy , and convert is-a relation to has-a relationship (BRIDGE)
+
+Each video was a 4k video
+now each video has a 4k processor.. aise convert karlo.
+
+See code for more.

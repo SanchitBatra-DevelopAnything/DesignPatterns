@@ -1,0 +1,34 @@
+Easiest structural design pattern
+here we adapt to a particular functionality
+
+Example , we are using XML and taking input in XML ,
+now we need one 3rd party service which takes JSON , therefore we need to make our app compaitible with JSON
+we'll use JSON adapter here...
+
+In our example ,
+Swiggy store has list of items (food item)
+each fooditem has name , price and restaurant.
+
+Now , swiggy decides to add groceries too
+grocery is a completely diffrent entity from item
+but we need to adapt grocery
+
+So , we will create one adapter which will implement item and will have the grocery object
+using methods of implementation we'll try to convert this groceryItem into the FoodItem.
+
+Therfore our app adapted to groceries as well , without changing the store logic..
+
+
+GroceryItem is completely diffrent from the item we have.
+as it has storeName , finally to adapt we will convert storeName to restaurantName.. and grocery = item now.
+
+//as grocery item adapter implements item , it is also an item , which helps to convert grocery item to item for
+//compaitiblity
+
+Adapter implements result {
+    has object of (what needs to be converted to result)
+
+    constructor(receiving this object)
+
+    methods from result , converting object to result.
+}

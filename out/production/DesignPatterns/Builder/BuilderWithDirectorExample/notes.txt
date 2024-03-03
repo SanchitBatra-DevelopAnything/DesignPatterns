@@ -11,6 +11,8 @@ AB EK DIRECTOR CLASS HOGI , JO KI USER INPUT LEGI VEG YA NONVEG , AND POORA MEAL
 
 Builders me meal object hoga , varna properties kiski set karoge?
 
+Director client se ek builder lega , aur Meal prepare krdega uss builder pe
+
 
 
 

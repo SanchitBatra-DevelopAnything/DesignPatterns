@@ -1,0 +1,5 @@
+Add behaviour to a class
+
+Like we have pizza
+Now a decorator will implement pizza and will have a pizza (input to decorator in constructor).
+Now this decorator will decorate the pizza , and will give out a pizza which is decorated.

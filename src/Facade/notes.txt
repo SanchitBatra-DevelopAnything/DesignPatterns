@@ -1,0 +1,7 @@
+Hides complexity from the client.
+Facade is a layer of abstraction which takes input from the user and does all the complex stuff on its own.
+
+We as a user only place order to zomatoFacade
+zomatoFacade contacts the restaurant , gets a delivery boy , picks and delivers the order to us..
+
+we just need to tell facade,ok place my order.

@@ -5,3 +5,6 @@ sakte ho as its extended from parent.
 
 4.) Class matlab actor
 5.) Methods matlab responsibility
+
+6.) Abstract class matlab cheez hai kya?
+7.)Interface matlab cheez karegi kya?

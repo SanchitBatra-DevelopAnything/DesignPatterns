@@ -1,0 +1,7 @@
+1.) Only methods and multiple subtypes? Interface use karlo
+2.) if properties bhi hain , to abstract class use karlo...
+3.) Abstract class me prop jo hogi wo constructor se bhrte ho , to child se super me wo pass kardo.. and child me directly use kar
+sakte ho as its extended from parent.
+
+4.) Class matlab actor
+5.) Methods matlab responsibility

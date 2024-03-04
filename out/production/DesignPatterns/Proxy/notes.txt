@@ -1,0 +1,24 @@
+Proxy is a structural pattern
+
+see you're doing a payment
+all of that boils down to cash , but cash has proxies (credit card , cheque , upi etc. {childs of payment interface})
+
+Another example is :
+for depositCash , withDrawCash and checkBalance , main Object is Bank
+but you can also go to ATM to do this
+
+ATM here acts as a proxy to the bank..
+Taaki bank pe load kam ho..
+
+Feasible object which does work for you so you dont have to trouble the main object
+Proxy pattern
+
+
+Used when we need to hide the original object
+Like on DB or when we work with remote servers , we give a proxy object to the user.
+
+Proxy object has the original object to perform the operation..
+both proxyObject and actualObjects are childs of an interface.
+
+
+See now all the checks and validations can happen on ATM , and not the bank.. we saved load on bank.

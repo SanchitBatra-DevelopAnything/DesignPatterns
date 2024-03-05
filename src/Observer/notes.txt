@@ -1,0 +1,13 @@
+Behavioural Design pattern:
+ek hoga observable(publisher) , multiple honge observers(consumer)
+
+Publisher (news agency) ke paas :
+1.) State hoga (news)
+2.) Observers ki list hogi (channels ki list)
+3.) Inko add/remove karne ki capability hogi (addObserver , removeObserver)
+4.) State change pe saare subscribers ke through jaake unka update method call hojayga where it will pass the new state.
+(we're doing this through setNews)
+
+Observer ke paas :
+1.) update Method hoga to update the subscribed state.
+2.) subscribed state isme property hogi obv.

@@ -1,0 +1,31 @@
+Behavioural Pattern
+
+Isme yaar jab bhi tum abstraction kar rahe ho
+concrete me implementation ki alag alag algorithms ko strategy banaake import karlo
+
+Example :
+Route navigation on vehicles
+
+car ke liye you choose Highway&Road Strategy
+bike ke liye you choose thinRoadStrategy
+..
+...
+....
+.....
+
+kal ko public transport aagaya , to Code reuse karlo as yhan bhi to tumko Highway&Road strategy hi chahiye
+therefore code reusable bna + less prone to errors and more consistent.
+
+Ye to har baar abstraction me lagaa hi dena in interviews.
+
+Ek context ki madad se strategy execute hogi , context will take in a strategy and run that strategy..
+
+---------------
+Implementation
+
+For each strategy , there will be a method to do work
+therefore strategy interface banaake , alag alag concrete strategies banaalo using your algo
+See the example of a calculator.
+
+
+

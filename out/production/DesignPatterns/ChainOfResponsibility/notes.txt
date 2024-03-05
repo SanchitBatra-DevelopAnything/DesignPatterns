@@ -1,0 +1,22 @@
+Say we get a request and we need to process it
+
+request --> responsiblity1 ---> responsiblity2 ----> responsiblity3 -->.... -> ProcessingPart
+
+aage karte hain request and its state
+
+say , req came
+
+request aayi --> Check Authentication ---> Check authorization ---> Check Plan info ---> Process accordingly
+
+you can also skip a responsiblity if you want very easily
+
+Example :
+Payment process karo
+bank can process if amount<500
+credit card can process if amount<1000
+paypal can process if amt < 1500
+
+req --> bank (process complete OR forward to next responsiblity) --> Credit card ...
+------
+therefore request Handler will be an abstract class (cuz we have diffrent concrete types) , with next pointer as i/p object.
+

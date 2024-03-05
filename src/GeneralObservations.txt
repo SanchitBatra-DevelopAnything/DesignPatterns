@@ -8,3 +8,9 @@ sakte ho as its extended from parent.
 
 6.) Abstract class matlab cheez hai kya?
 7.)Interface matlab cheez karegi kya?
+
+
+-----
+
+Ki pehle class diagram banaao , design patterns bhi diagramatically banaao
+Fir zyada cheezein ache se clear hongi..

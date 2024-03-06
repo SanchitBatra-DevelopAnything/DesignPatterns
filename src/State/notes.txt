@@ -1,0 +1,33 @@
+Behavioural Design Pattern
+State hota hai na app ka , uske hisaab se agar behaviour karna hai to state design pattern use karlo
+
+State 1 --> Behaviour1
+State 2 --> Behaviour2
+
+generally hum if elses use kar lete hain , par wo bekaar hai
+
+State Design Pattern samjho
+Example :
+Document state is new --> Write , Save and send it to Draft state
+Draft State--> Document should be reviewed and on review send it to complete state
+complete State --> Document is ready to be sent..
+
+Structure :
+State interface performs an action
+
+Concrete states have their own action implementations (like state1 --> behaviour1 type kuch)
+
+Har state ke paas ek context hoga , jo bataayga ki current state kya hai object ka , uske hisaab se mujhe action lena hoga
+Context stores the current state of the object
+
+KISI AUR STATE SE CURRENT STATE ME LUNGA CONTEXT KO
+context.setState(this);
+
+Start point :
+Context khaali hi banega , setState se initial state set karoge inside a context. Kyuki action perform hone ke baad state change hoga
+pehle koi action ni karna , to null state dena hai.
+
+
+action karke context ko boldiya ki start state me hain ab hum..
+
+        //maanlo player chalaaya , pehle null tha , start kara aur bola ki ab main start state me hu

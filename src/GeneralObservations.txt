@@ -25,3 +25,18 @@ warehouseController banaalo!
 
 Jis Jis class me List<XYZ> hai , usme CRUD methods honge XYZ ko maintain krne ke.
 Invoice would have generateInvoice(Order iskeLiye); method.
+
+-------
+
+Checkout
+removeItemFrom Inventory
+
+Do payment
+if success , clear cart
+
+if fail ,
+add Item back to inventory
+
+Do it synchronously
+------------
+

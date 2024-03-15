@@ -27,7 +27,6 @@ Jis Jis class me List<XYZ> hai , usme CRUD methods honge XYZ ko maintain krne ke
 Invoice would have generateInvoice(Order iskeLiye); method.
 
 -------
-
 Checkout
 removeItemFrom Inventory
 
@@ -39,4 +38,11 @@ add Item back to inventory
 
 Do it synchronously
 ------------
+
+LLD PROBLEMS KO SOLVE ESE KRNA HOTA HAI :
+
+Rough flow banaao , fir main object dekho (jaise movie for bms , PARKING spot for parking) , wo agar oopar lie karta hai spectrum me ,
+to TOP DOWN Designing karlo , nahi to bottom up karlo.
+
+
 

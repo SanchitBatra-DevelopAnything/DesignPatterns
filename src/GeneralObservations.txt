@@ -14,3 +14,14 @@ sakte ho as its extended from parent.
 
 Ki pehle class diagram banaao , design patterns bhi diagramatically banaao
 Fir zyada cheezein ache se clear hongi..
+
+-------------
+
+System me multiple users hain , userController banaalo app class ko dedo to have full control
+Ek class hai warehouse , par system ne multiple warehouses ko manage karna hai
+warehouseController banaalo!
+
+--------------------
+
+Jis Jis class me List<XYZ> hai , usme CRUD methods honge XYZ ko maintain krne ke.
+

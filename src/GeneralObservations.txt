@@ -24,4 +24,4 @@ warehouseController banaalo!
 --------------------
 
 Jis Jis class me List<XYZ> hai , usme CRUD methods honge XYZ ko maintain krne ke.
-
+Invoice would have generateInvoice(Order iskeLiye); method.

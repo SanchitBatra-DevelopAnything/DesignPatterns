@@ -9,16 +9,18 @@ public class DisjointSet {
 
     public DisjointSet(int n)
     {
-        rank = new int[n+1]; //n+1 would serve 0 based and 1 based indexing both.
-        parent = new int[n+1];
-        size = new int[n+1];
 
-        for(int i=0;i<=parent.length;i++) //<= to support 1 based indexing also.
+        //size n + 1 lelo for 1 based indexing
+        rank = new int[n]; //n+1 would serve 0 based and 1 based indexing both.
+        parent = new int[n];
+        size = new int[n];
+
+        for(int i=0;i<parent.length;i++) //<= to support 1 based indexing also.
         {
             parent[i] = i;
         }
 
-        for(int i=0;i<=size.length;i++)
+        for(int i=0;i<size.length;i++)
         {
             size[i] = 1;
         }
